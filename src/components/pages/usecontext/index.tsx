@@ -42,6 +42,8 @@ const GrandChildComponent = () => {
 };
 
 const UseContextScreen = () => {
+  // env access
+  console.log(import.meta.env.VITE_BASE_API_KEY);
   return (
     <>
       <GrandChildComponent />
