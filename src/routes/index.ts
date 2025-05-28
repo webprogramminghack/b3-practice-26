@@ -22,4 +22,8 @@ export const routes: Route[] = [
     path: "/usecontext",
     component: lazy(() => import("../components/pages/usecontext")),
   },
+  {
+    path: "/todo",
+    component: lazy(() => import("../components/pages/todo")),
+  },
 ];
